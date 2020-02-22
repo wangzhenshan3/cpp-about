@@ -1,5 +1,5 @@
-//ÊäÈëÊı¾İ79£¬66£¬78£¬85£¬87£¬83
-//Êä³öÊı¾İ79.6667
+//è¾“å…¥æ•°æ®79ï¼Œ66ï¼Œ78ï¼Œ85ï¼Œ87ï¼Œ83
+//è¾“å‡ºæ•°æ®79.6667
 #include <iostream>
 #include <stdlib.h>
 using namespace std;
@@ -28,17 +28,17 @@ int main(int argc, char*argv[]) {
 	long score4[5];
 	int score5[5];
 	int i,i2;
-	cout << "ÇëÊäÈëÓ¢Óï³É¼¨" << endl; 
+	cout << "è¯·è¾“å…¥è‹±è¯­æˆç»©" << endl; 
 	cin >> score[0];
-	cout << "ÇëÊäÈë¸ßÊı³É¼¨" << endl;
+	cout << "è¯·è¾“å…¥é«˜æ•°æˆç»©" << endl;
 	cin >> score[1];
-	cout << "ÇëÊäÈëÏß´ú³É¼¨" << endl;
+	cout << "è¯·è¾“å…¥çº¿ä»£æˆç»©" << endl;
 	cin >> score[2];
-	cout << "ÇëÊäÈëÀúÊ·³É¼¨" << endl;
+	cout << "è¯·è¾“å…¥å†å²æˆç»©" << endl;
 	cin >> score[3];
-	cout << "ÇëÊäÈëÕşÖÎ³É¼¨" << endl;
+	cout << "è¯·è¾“å…¥æ”¿æ²»æˆç»©" << endl;
 	cin >> score[4];
-	cout << "ÇëÊäÈëĞÅÏ¢³É¼¨" << endl;
+	cout << "è¯·è¾“å…¥ä¿¡æ¯æˆç»©" << endl;
 	cin >> score[5];
 	for (i = 0; i <= 5; i++) {
 		score2[i] = float(score[i]);
@@ -46,17 +46,17 @@ int main(int argc, char*argv[]) {
 		score5[i] = int(score[i]);
 		itoa(score5[i],score3[i],10);
 	}
-	cout << "Ë«¾«³É¼¨" << endl;
+	cout << "åŒç²¾æˆç»©" << endl;
 	for (i = 0; i <= 5; i++) {
 		cout << score[i] << "";
 		cout << endl;
 	}
-	cout << "¸¡µã³É¼¨" << endl;
+	cout << "æµ®ç‚¹æˆç»©" << endl;
 	for (i = 0; i <= 5; i++) {
 		cout << score2[i] << "";
 		cout << endl;
 	}
-	cout << "×Ö·û³É¼¨" << endl; 
+	cout << "å­—ç¬¦æˆç»©" << endl; 
 	for (i= 0; i<= 5; i++){
 	for(i2=0;i2<=1;i2++){
 	
@@ -64,18 +64,18 @@ int main(int argc, char*argv[]) {
     }
     cout<<endl;
 	}
-	cout << "³¤ĞÍ³É¼¨" << endl; 
+	cout << "é•¿å‹æˆç»©" << endl; 
 	for (i = 0; i <= 5; i++) {
 		cout << score4[i] << "";
 		cout << endl;
 	}
-	cout << "¸¡µã³É¼¨" << endl; 
+	cout << "æµ®ç‚¹æˆç»©" << endl; 
 	for (i = 0; i <= 5; i++) {
 		cout << score5[i] << "";
 		cout << endl;
 	}
 	data p;
-	cout << "Æ½¾ù³É¼¨" << endl;
+	cout << "å¹³å‡æˆç»©" << endl;
 	cout << p.getaverage(score[0], score[1], score[2], score[3], score[4], score[5]) << endl;
 }
 
